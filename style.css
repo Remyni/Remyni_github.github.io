@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #202124;
+    font-size: 14px;
+    font-family: arial , sans-serif;
+    color:#bdc1c6;
+}
+
+
+header{
+    
+    display: flex;
+    justify-content: flex-end ;
+    flex-wrap: wrap; 
+}
+
+header a{
+    margin: 5px;
+    padding: 5px;
+    color: rgba(250, 245, 245, 0.911);
+    text-decoration: none;
+}
+.items{
+    color: rgb(173, 14, 14);
+    text-decoration: none;
+}
+
+.items button{
+    background-color: #8ab4f8;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    width: auto;
+    cursor: pointer;
+}
+
+#button{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+
+}
+
+/* Section principale */
+
+.main img{
+    width: 280px;
+    height: 100px;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 7em;
+   
+}
+
+.main .research{
+    display: flex;
+    width:45%;
+
+}
+
+.main .research input{
+    margin-top:20px ;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0.5px solid #D1D1D1;
+    outline: none;
+    width: 100%;
+    background-color:#202124; 
+    color: #e8eaed;
+}
+
+.main .buttons{
+    margin-top: 20px ;
+    
+}
+
+.main .buttons button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #303134 ;
+    border: whitesmoke 1px;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+footer{
+    
+    background-color: #131314;
+    padding: 0 20px;
+    color:#bdc1c6 ;
+    
+    
+    
+}
+
+.Foot1{
+    padding: 5px 0 0 0;
+    margin: 10px 20px;
+    color: #9aa0a6;
+    font-size: 15px;
+    
+    
+}
+
+footer a{
+    color: #9aa0a6;
+    text-decoration: none;
+    margin-right: 20px;
+    
+
+}
+
+.neutral{
+    
+    text-align: center;
+    width: 100%;
+    padding: 0px 15px 20px 0px;
+    
+    
+    
+    
+}
+.element{
+
+padding: 15px 20px;
+
+
+}
+.element2{
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+
+}
